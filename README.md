@@ -11,6 +11,20 @@ An [OpenTAKServer](https://github.com/brian7704/OpenTAKServer) plugin that fetch
 - **REST API** — manual fetch, clear, and config endpoints for automation
 - **Live Config Updates** — change feed settings at runtime; persisted to `config.yml`
 
+## Screenshots
+
+### Plugin Dashboard
+![ArcGIS Feed Manager Dashboard](screenshots/dashboard.png)
+*The web UI dashboard for managing ArcGIS feeds*
+
+### ATAK Integration
+<p align="center">
+  <img src="screenshots/atak-markers-1.png" alt="ATAK with ArcGIS markers" width="45%">
+  <img src="screenshots/atak-markers-2.png" alt="ATAK marker details" width="45%">
+</p>
+
+*ArcGIS features displayed as CoT markers in ATAK/WinTAK*
+
 ## Installation
 
 ### Via OTS Web UI (recommended)
