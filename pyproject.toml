@@ -1,0 +1,29 @@
+[project]
+name = "ots-arcgis-feed"
+version = "0.6.2"
+description = "OpenTAKServer plugin that fetches ArcGIS FeatureServer data and broadcasts CoT events to ATAK clients"
+authors = [{name = "Team Velociraptor", email = "teamvelociprator@proton.me"}]
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+dependencies = [
+    "opentakserver>=1.5.0",
+    "requests>=2.28.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/teamvelociraptor/ots-arcgis-feed"
+Repository = "https://github.com/teamvelociraptor/ots-arcgis-feed"
+Issues = "https://github.com/teamvelociraptor/ots-arcgis-feed/issues"
+
+[project.entry-points.'opentakserver.plugin']
+ots_arcgis_feed = 'ots_arcgis_feed.app:ArcGISFeedPlugin'
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ots_arcgis_feed*"]
+
+[tool.setuptools.package-data]
+ots_arcgis_feed = ["ui/**/*"]
