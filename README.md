@@ -24,7 +24,7 @@ An [OpenTAKServer](https://github.com/brian7704/OpenTAKServer) plugin that fetch
 ```bash
 pip install ots-arcgis-feed
 # or install from a local wheel
-pip install ots_arcgis_feed-0.6.2-py3-none-any.whl
+pip install ots_arcgis_feed-1.0.0-py3-none-any.whl
 ```
 
 ## Configuration

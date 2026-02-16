@@ -1,6 +1,6 @@
 [project]
 name = "ots-arcgis-feed"
-version = "0.6.2"
+version = "1.0.0"
 description = "OpenTAKServer plugin that fetches ArcGIS FeatureServer data and broadcasts CoT events to ATAK clients"
 authors = [{name = "Team Velociraptor", email = "teamvelociprator@proton.me"}]
 license = "GPL-3.0-or-later"
